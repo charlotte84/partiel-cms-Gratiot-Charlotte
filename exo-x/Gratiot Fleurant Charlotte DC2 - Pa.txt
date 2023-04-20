@@ -1,0 +1,100 @@
+Gratiot Fleurant Charlotte DC2 - Partiel CMS 
+
+
+
+Exo-1 Dans un fichier texte, donner la définition d'un CMS
+
+
+Un CMS (Content Management System) est un système de gestion de contenu qui permet de créer, modifier et publier des contenus de manière efficace et intuitive. Il s’agit d’un logiciel en ligne grâce auquel il est possible de créer, de gérer et de modifier facilement un site web, sans avoir besoin de connaissances techniques.Les CMS les plus populaires sont par exemple WordPress, Drupal et sont utilisés pour créer une grande variété de sites web, des blogs, des sites d'entreprise, des sites vitrine...
+
+
+
+Exo-4 Dans un fichier txt écrire une requête qui permet d'afficher toutes les voitures de la marque "BMW" 
+
+
+SELECT * FROM Car WHERE Brand = "BMW";
+
+
+Exo-5 Dans un fichier txt écrire une requête qui permet d'afficher tout les noms de toutes les personnes ayant une voiture de couleur rouge trié par nom par ordre décroissant
+
+
+SELECT lastname FROM User
+INNER JOIN Car ON User.id = Car.User_id
+WHERE cars.color = 'rouge'
+ORDER BY user.lastname DESC;
+
+
+
+Exo-6 Dans un fichier txt écrire une requête qui permet d'ajouter la marque Ferrari dans la table brand
+
+INSERT INTO Brand (modele) VALUES ('Ferrari');
+
+
+
+Exo-7 Dans un fichier txt citer les plugins qui permettent de modifier un theme sous worpdress
+
+
+Liste d'exemples de plugins populaires qui permettent de modifier un thémes WordPress :
+
+
+- Elementor 
+
+- Customizer
+
+- Gutenberg
+
+- Visual Composer 
+
+- WP Page Builder 
+
+- Astra Theme
+
+- Divi Builder
+
+
+Exo-8 Dans un fichier txt citer les différence entre le sql et le no sql
+
+Voici les principales différences entre le sql et le no sql :
+
+
+Le SQL est une base de données relationnelle, c'est-à-dire que les données sont stockées dans des tables avec des relations entre les différentes tables et qui représentent des concepts qui sont détaillés à travers des champs. Le NoSQL, lui est une base de données non relationnelle, ce qui signifie que les données sont basé sur des documents, des clé/valeurs, des graph, des colonnes.
+
+
+Le SQL utilise un schéma relationnelle pour définir la structure des données et la relation est complexes entre les données. Le NoSQL utilise un schéma non relationnelle et permet une gestion efficace de grandes quantités de données.
+
+Au niveau des Requêtes Le SQL utilise des requêtes structurées pour interroger les données. Le NoSQL utilise des requêtes non structurées et plus flexibles, qui peuvent être plus spécifiques.
+
+Le SQL est souvent utilisé pour les applications qui nécessitent une gestion stricte des données. Le NoSQL est souvent utilisé pour les applications qui nécessitent une flexibilité dans la gestion des données.
+
+
+
+
+
+Gratiot Fleurant Charlotte DC2 - Partiel Ingénierie Technique
+
+
+
+Exo-5 Dans un fichier txt: Définition de nodeJs
+
+
+Le NodeJS est environnement d'exécution open-source, utilisé pour des tâches de traitement côté serveur telles que la gestion des requêtes HTTP, la manipulation de fichiers et l'accès aux bases de données.
+
+
+
+Exo-6 Dans un fichier txt: Définition du backend
+
+Le Backend est la partie qui s'exécute sur le serveur, par opposition au frontend qui s'exécute dans le navigateur Web. Le backend gère la communication avec la base de données, effectue des calculs et fournit des services via une API.  
+
+Le backend est essentiel pour les applications Web, car il est responsable de la gestion des données, de la sécurité et de la performance de l'application. Sans un backend, une application Web ne peut pas fournir une expérience utilisateur optimale ou fonctionner efficacement à grande échelle.
+
+
+Exo-6 Dans un fichier txt: Quel est la différence entre le Local storage et le session strorage
+
+Le Local Storage stocke les données de manière permanente sur l'ordinateur de l'utilisateur, tandis que le Session Storage les données sont supprimées lorsque la page est fermée.
+
+
+
+
+
+
+
